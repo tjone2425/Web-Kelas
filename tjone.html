@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kelas XI TJ 1</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <header id="home">
+        <h1>Kelas XI TJ 1</h1>
+        <img src="kelas.jpeg" alt="Foto atau logo kelas XI TJ 1">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#struktur">Struktur</a></li>
+                <li><a href="#jadwal">Jadwal</a></li>
+                <li><a href="#fotbar">Galeri</a></li>
+            </ul>
+        </nav> 
+    </header>
+
+    <main>
+        <section id="profil">
+            <h2>Profil Kelas</h2>
+            <p>
+                Kelas: XI/11 <br>
+                Jurusan: <abbr title="Teknik Jaringan Komputer dan Telekomunikasi">TJKT</abbr> <br>
+                Sekolah: SMK Pasundan 1 Bandung <br>
+                Alamat Sekolah: 
+                <address>
+                    Jl. Balonggede No.44, Balonggede, Kec. Regol, Kota Bandung, Jawa Barat 40251
+                </address>
+                Wali Kelas: Pa Sudrajat <br>
+                Jumlah Siswa: 
+            </p>
+            <ul>
+                <li>Laki-laki: 36</li>
+                <li>Perempuan: 0</li>
+                <li>Total: 36</li>
+            </ul>
+            <p>
+                Motto Kelas:
+                <blockquote>
+                    "Kelas yang solid bukan diukur dari nilainya, tapi dari seberapa erat genggaman tangan saat salah satu dari kami membutuhkan."
+                </blockquote>
+                <blockquote>
+                    "Bukan tentang siapa yang paling pintar, tapi tentang bagaimana kami saling membantu agar semua bisa sampai digaris akhir"
+                </blockquote>
+            </p>
+        </section>
+
+        <section id="struktur">
+            <h2>Struktur Organisasi Kelas</h2>
+            <div class="walikelas">
+                <h3>Wali Kelas</h3>
+                <div class="datawalikelas">
+                    <img src="walikelas.jpeg" alt="Foto Bapa Sudrajat">
+                    <p>
+                        Nama: Sudrajat, S.Pd <br>
+                        Jabatan:  <br>
+                        -Walikelas XI TJ 1, <br>
+                        -Guru Mapel Olahraga, <br>
+                        -dan Pembina Ekstrakurikuler Bola Voli
+                    </p>
+                </div>
+            </div>
+            <div class="murid">
+                <h3>Nama Siswa dan Tanggal Lahir</h3>
+                <div class="namasiswa">
+                    <div class="button-group">
+                        <button class="tab-button" onclick="showGroup(1)">Absen 1-10</button>
+                        <button class="tab-button" onclick="showGroup(2)">Absen 11-20</button>
+                        <button class="tab-button" onclick="showGroup(3)">Absen 21-30</button>
+                        <button class="tab-button" onclick="showGroup(4)">Absen 31-36</button>
+                    </div>
+
+                    <div class="foto-group group-1">
+                        <div class="anggota">
+                            <img src="murid/absen1.jpg" alt="Foto">
+                            <h4>Aditya</h4>
+                            <p>28 Juni 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen2.jpg" alt="Foto">
+                            <h4>Adli</h4>
+                            <p>11 Januari 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen3.jpg" alt="Foto">
+                            <h4>Ahmad</h4>
+                            <p>21 November 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen4.jpg" alt="Foto">
+                            <h4>Alevan</h4>
+                            <p>18 Maret 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen5.jpg" alt="Foto">
+                            <h4>Alvicky</h4>
+                            <p>13 Juni 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen6.jpg" alt="Foto">
+                            <h4>Arief</h4>
+                            <p>6 Januari 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen7.jpg" alt="Foto">
+                            <h4>Andre</h4>
+                            <p>3 Agustus 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen8.jpg" alt="Foto">
+                            <h4>Azzuro</h4>
+                            <p>9 Agustus 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen9.jpg" alt="Foto">
+                            <h4>Chiko</h4>
+                            <p>23 September 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen10.jpg" alt="Foto">
+                            <h4>David</h4>
+                            <p>25 Maret 2009</p>
+                        </div>
+                    </div>
+
+                    <div class="foto-group group-2">
+                        <div class="anggota">
+                            <img src="murid/absen11.jpg" alt="Foto">
+                            <h4>Denira</h4>
+                            <p>9 Juli 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen12.jpg" alt="Foto">
+                            <h4>Dirly</h4>
+                            <p>13 Desember 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen13.jpg" alt="Foto">
+                            <h4>Fahmi</h4>
+                            <p>30 Januari 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen14.jpg" alt="Foto">
+                            <h4>Fajril</h4>
+                            <p>6 Desember 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen15.jpg" alt="Foto">
+                            <h4>Farhan</h4>
+                            <p>30 Oktober 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen16.jpg" alt="Foto">
+                            <h4>Fauzan.F</h4>
+                            <p>24 Mei 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen17.jpg" alt="Foto">
+                            <h4>Arsyad</h4>
+                            <p>13 Desember 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen18.jpg" alt="Foto">
+                            <h4>Hadin</h4>
+                            <p>26 Februari 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen19.jpg" alt="Foto">
+                            <h4>Jamil</h4>
+                            <p>2 Oktober 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen20.jpg" alt="Foto">
+                            <h4>Khafid</h4>
+                            <p>28 Agustus 2008</p>
+                        </div>
+                    </div>
+
+                    <div class="foto-group group-3">
+                        <div class="anggota">
+                            <img src="murid/absen21.jpg" alt="Foto">
+                            <h4>Lihan</h4>
+                            <p>24 Juni 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen22.jpg" alt="Foto">
+                            <h4>Andika</h4>
+                            <p>18 Januari 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen23.jpg" alt="Foto">
+                            <h4>Afryansyah</h4>
+                            <p>4 Juni 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen24.jpg" alt="Foto">
+                            <h4>M.Fauzan</h4>
+                            <p>7 April 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen25.jpg" alt="Foto">
+                            <h4>Abay</h4>
+                            <p>15 Desember 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen26.jpg" alt="Foto">
+                            <h4>Hasbi</h4>
+                            <p>5 November 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen27.jpg" alt="Foto">
+                            <h4>Yayat</h4>
+                            <p>16 Juni 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen28.jpg" alt="Foto">
+                            <h4>Nathan</h4>
+                            <p>19 September 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen29.jpg" alt="Foto">
+                            <h4>Paris</h4>
+                            <p>16 April 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen30.jpg" alt="Foto">
+                            <h4>Raffa</h4>
+                            <p>26 November 2008</p>
+                        </div>
+                    </div>
+
+                    <div class="foto-group group-4">
+                        <div class="anggota">
+                            <img src="murid/absen31.jpg" alt="Foto">
+                            <h4>Rayhand</h4>
+                            <p>9 April 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen32.jpg" alt="Foto">
+                            <h4>Revaldo</h4>
+                            <p>21 Juli 2009</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen33.jpg" alt="Foto">
+                            <h4>Rickho</h4>
+                            <p>25 Januari 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen34.jpg" alt="Foto">
+                            <h4>Rizki Rukmana</h4>
+                            <p>25 Agustus 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen35.jpg" alt="Foto">
+                            <h4>Rizki.R</h4>
+                            <p>12 September 2008</p>
+                        </div>
+                        <div class="anggota">
+                            <img src="murid/absen36.jpg" alt="Foto">
+                            <h4>Zola</h4>
+                            <p>26 Juni 2009</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jadwal">
+            <h2>Jadwal Piket</h2>
+            <div class="full-group-piket">
+                <div class="piket-group">
+                    <h3>Senin</h3>
+                    <ul>
+                        <li>Adit</li>
+                        <li>Andre</li>
+                        <li>Denira</li>
+                        <li>Fauzan.F</li>
+                        <li>Lihan</li>
+                        <li>Hasbi</li>
+                        <li>Rayhand</li>
+                        <li>Zola</li>
+                    </ul>
+                </div>
+                <div class="piket-group">
+                    <h3>Selasa</h3>
+                    <ul>
+                        <li>Adli</li>
+                        <li>Arief</li>
+                        <li>Dirly</li>
+                        <li>Arsyad</li>
+                        <li>Andika</li>
+                        <li>Yayat</li>
+                        <li>Aldo</li>
+                    </ul>
+                </div>
+                <div class="piket-group">
+                    <h3>Rabu</h3>
+                    <ul>
+                        <li>Ahmad</li>
+                        <li>Azzuro</li>
+                        <li>Fahmi</li>
+                        <li>Hadin</li>
+                        <li>Afryansyah</li>
+                        <li>Nathan</li>
+                        <li>Rickho</li>
+                    </ul>
+                </div>
+                <div class="piket-group">
+                    <h3>Kamis</h3>
+                    <ul>
+                        <li>Alevant</li>
+                        <li>Chiko</li>
+                        <li>Fajril</li>
+                        <li>Jamil</li>
+                        <li>M.Fauzan</li>
+                        <li>Paris</li>
+                        <li>Rizki Rukmana</li>
+                    </ul>
+                </div>
+                <div class="piket-group">
+                    <h3>Jum'at</h3>
+                        <ul>
+                            <li>Alvicky</li>
+                            <li>David</li>
+                            <li>Farhan</li>
+                            <li>Khafid</li>
+                            <li>Akbar</li>
+                            <li>Raffa</li>
+                            <li>Rizki Ramadhan</li>
+                        </ul>
+                </div>
+            </div>
+            <p>Dibuat pada: <time datetime="2025-07-24">24 Juli 2025</time></p>
+        </section>
+
+        <section id="fotbar">
+            <h2>Foto Bersama</h2>
+            <h3>Kelas X</h3>
+            <div class="kelasx">
+                <img src="fotbarx.jpeg" alt="Foto Bersama Kelas X TJ 1 Bersama (Wali Kelas: Pa Rafi Ramadya Pangestu)">
+                <img src="fotbarx1.jpeg" alt="Foto Bersama Kelas X TJ 1 Saat Awal Pembelajaran">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Oleh Nathan &copy; 2025 XI TJ 1 | <a href="https://smkpasundan1bandung.sch.id/">SMK Pasundan 1 Bandung</a></p>
+        <p>Instagram: 
+            <a href="https://www.instagram.com/xi_tenik_jaringan_komputer_01/" target="_blank">
+                @xi_teknik_jaringan_komputer_01
+            </a>
+        </p>
+        <canvas id="myCanvas" width="200" height="100"></canvas>
+        <script>
+            const c = document.getElementById("myCanvas");
+            const ctx = c.getContext("2d");
+            ctx.fillStyle = "lightblue";
+            ctx.fillRect(20, 20, 150, 60);
+            ctx.font = "16px Arial";
+            ctx.fillStyle = "black";
+            ctx.fillText("XI TJ 1", 70, 55);
+        </script>
+        <script>
+            function showGroup(groupNumber) {
+                const allGroups = document.querySelectorAll('.foto-group');
+                const buttons = document.querySelectorAll('.tab-button');
+        
+                // Sembunyikan semua grup
+                allGroups.forEach(group => {
+                    group.style.display = 'none';
+                });
+        
+                // Reset tombol
+                buttons.forEach(button => {
+                    button.classList.remove('active');
+                });
+        
+                // Tampilkan grup yang dipilih
+                const selectedGroup = document.querySelector(`.group-${groupNumber}`);
+                selectedGroup.style.display = 'flex';
+        
+                // Aktifkan tombol yang ditekan
+                buttons[groupNumber - 1].classList.add('active');
+            }
+        
+            // Tampilkan grup pertama secara default saat halaman dibuka
+            document.addEventListener("DOMContentLoaded", function () {
+                showGroup(1);
+            });
+        </script>
+        
+    </footer>
+</body>
+</html>
